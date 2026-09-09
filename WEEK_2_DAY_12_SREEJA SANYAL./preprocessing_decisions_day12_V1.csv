@@ -1,0 +1,9 @@
+Decision,Decision Made,Reason
+Missing numerical values,StandardScaler,Robust to outliers and simple for numerical data
+Feature scaling,Train / Validation / Test,Places numerical features on a comparable scale
+Data splitting,Source_File,Keeps separate data for training and evaluation
+Group variable,Session-based,Reduces the chance of the same source file appearing in multiple splits
+SOC target,SOC percentage,Provides a normalized SOC target from charging capacity
+Remaining charging time target,Time remaining until final charging timestamp,Provides a supervised remaining-time target
+Feature engineering,Will be evaluated,Will be evaluated during feature engineering
+Final feature selection,Will be finalized after further analysis,Will be finalized after further analysis

@@ -1,0 +1,33 @@
+{
+    "project": "Battery SOC Estimation and Remaining Charging Time Prediction using ML",
+    "dataset_version": "Day 12 Dataset V1",
+    "source": "Day 11 processed dataset",
+    "targets": [
+        "SOC",
+        "Remaining Charging Time"
+    ],
+    "soc_input_variables": [
+        "Voltage",
+        "Current",
+        "Temperature",
+        "Elapsed Time",
+        "Cycle",
+        "WhAccu"
+    ],
+    "time_input_variables": [
+        "Voltage",
+        "Current",
+        "Temperature",
+        "Elapsed Time",
+        "Cycle",
+        "Capacity",
+        "WhAccu"
+    ],
+    "group_variable": "Source_File",
+    "preprocessing": [
+        "Median imputation",
+        "StandardScaler"
+    ],
+    "feature_engineering": "Reserved for Day 13",
+    "final_feature_selection": "Reserved for Day 13"
+}
