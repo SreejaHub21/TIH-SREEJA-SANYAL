@@ -1,0 +1,21 @@
+{
+    "SOC": [
+        "Voltage",
+        "Current",
+        "Temperature",
+        "Elapsed Time",
+        "Cycle",
+        "WhAccu",
+        "Power"
+    ],
+    "Remaining Charging Time": [
+        "Voltage",
+        "Current",
+        "Temperature",
+        "Elapsed Time",
+        "Cycle",
+        "Capacity",
+        "WhAccu",
+        "Power"
+    ]
+}
