@@ -1,0 +1,16 @@
+{
+    "Remaining Charging Time": {
+        "Model": "Random Forest",
+        "Experiment": "RF_1_Baseline_Tuned",
+        "Validation_MAE": 66.00901801686526,
+        "Validation_RMSE": 85.3416770896009,
+        "Validation_R2": 0.9965017158335832
+    },
+    "SOC": {
+        "Model": "XGBoost",
+        "Experiment": "XGB_2_More_Regularization",
+        "Validation_MAE": 5.767199061938905,
+        "Validation_RMSE": 8.348844436489136,
+        "Validation_R2": 0.8925733541059921
+    }
+}

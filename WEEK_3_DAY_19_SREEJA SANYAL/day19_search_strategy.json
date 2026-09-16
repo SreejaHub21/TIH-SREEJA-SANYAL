@@ -1,0 +1,32 @@
+{
+    "purpose": "Controlled hyperparameter/parameter experiments",
+    "data_split": "Frozen Day 13 train/validation/test split",
+    "model_selection_data": "Validation set only",
+    "test_set_usage": "Test set not loaded or used for model selection",
+    "primary_selection_metric": "Validation MAE",
+    "secondary_selection_metric": "Validation RMSE",
+    "additional_metric": "Validation R2",
+    "Random_Forest": {
+        "parameters_changed": [
+            "n_estimators",
+            "max_depth",
+            "min_samples_split",
+            "min_samples_leaf"
+        ],
+        "fixed_random_state": 42
+    },
+    "XGBoost": {
+        "parameters_changed": [
+            "n_estimators",
+            "max_depth",
+            "learning_rate",
+            "min_child_weight"
+        ],
+        "other_parameters_fixed": true,
+        "fixed_random_state": 42
+    },
+    "baseline_reference_models": [
+        "Day 15 Linear Regression",
+        "Day 17 MLP"
+    ]
+}

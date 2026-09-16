@@ -1,0 +1,7 @@
+Day 19 performed controlled hyperparameter experiments using the frozen Day 13 training and validation datasets.
+The test set was not loaded or used for model selection.
+Random Forest and XGBoost were evaluated using controlled changes to selected hyperparameters.
+Validation MAE was used as the primary selection metric, with Validation RMSE as the secondary criterion and Validation R2 as an additional performance measure.
+Linear Regression from Day 15 and MLP from Day 17 were included in the overall model comparison as reference candidate models.
+For Remaining Charging Time, the best validated configuration was Random Forest (RF_1_Baseline_Tuned) with Validation MAE=66.0090, Validation RMSE=85.3417, and Validation R2=0.9965.
+For SOC, the best validated configuration was XGBoost (XGB_2_More_Regularization) with Validation MAE=5.7672, Validation RMSE=8.3488, and Validation R2=0.8926.
