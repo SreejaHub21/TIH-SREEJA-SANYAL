@@ -1,0 +1,5 @@
+SOC: lowest MAE was observed in Low SOC (<=33.33%) (0.8197), while the highest MAE was observed in High SOC (>66.67%) (2.2137).
+Day 20 evaluated the robustness of the selected Day 19 models using the frozen Day 13 test set.
+The analysis examined overall prediction performance, SOC-range behaviour, target-wise feature importance, and prediction errors.
+The results identify operating regions where the selected models perform relatively well and regions where prediction error is higher.
+A separate charging-phase analysis was not performed because no suitable low-cardinality phase/status variable was available.

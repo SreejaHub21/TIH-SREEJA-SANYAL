@@ -1,0 +1,32 @@
+{
+    "Day": 20,
+    "Study_Type": "Project-Specific Robustness and Error Analysis",
+    "Model_Selection_From_Day": 19,
+    "Test_Set": "Frozen Day 13 test set",
+    "SOC_Model": "Day 19 Best XGBoost",
+    "Remaining_Time_Model": "Day 19 Best Random Forest",
+    "SOC_Features": [
+        "Voltage",
+        "Current",
+        "Temperature",
+        "Elapsed Time",
+        "Cycle",
+        "WhAccu",
+        "Power"
+    ],
+    "Remaining_Time_Features": [
+        "Voltage",
+        "Current",
+        "Temperature",
+        "Elapsed Time",
+        "Cycle",
+        "WhAccu",
+        "Power"
+    ],
+    "SOC_Test_Samples": 2250,
+    "Remaining_Time_Test_Samples": 2286,
+    "SOC_Range_Analysis": true,
+    "Target_Wise_Feature_Importance": true,
+    "Error_Analysis": true,
+    "Charging_Phase_Analysis": false
+}
