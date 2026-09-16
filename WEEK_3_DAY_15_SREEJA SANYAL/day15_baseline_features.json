@@ -1,0 +1,17 @@
+{
+    "features_used": [
+        "Voltage",
+        "Current",
+        "Temperature",
+        "Elapsed Time",
+        "Cycle",
+        "WhAccu",
+        "Power"
+    ],
+    "targets": [
+        "SOC",
+        "Remaining Charging Time"
+    ],
+    "model": "Linear Regression",
+    "split_source": "Day 13 frozen train/validation/test datasets"
+}

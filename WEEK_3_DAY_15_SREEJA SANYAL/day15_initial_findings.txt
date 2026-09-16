@@ -1,0 +1,17 @@
+
+Linear Regression was used as the baseline model for both SOC estimation
+and Remaining Charging Time prediction.
+
+The frozen train, validation and test datasets from Day 13 were used,
+so no new data split was created.
+
+MAE, RMSE and R2 were calculated for training, validation and test sets.
+
+Actual versus predicted plots were generated using the test set.
+
+The Linear Regression results will serve as the baseline reference for
+evaluating more advanced machine learning models in subsequent days.
+
+MODELLING DIRECTION
+If the baseline performance is not sufficiently accurate, nonlinear
+machine learning models will be evaluated and compared against this baseline.
