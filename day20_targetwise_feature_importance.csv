@@ -1,0 +1,15 @@
+Feature,Importance,Target
+Voltage,0.4728502333164215,SOC
+WhAccu,0.3789713978767395,SOC
+Power,0.05861857160925865,SOC
+Elapsed Time,0.04128522798418999,SOC
+Current,0.028047725558280945,SOC
+Temperature,0.020226815715432167,SOC
+Cycle,0.0,SOC
+Elapsed Time,0.5435461295984095,Remaining Charging Time
+WhAccu,0.3045229982564205,Remaining Charging Time
+Cycle,0.03896363300979874,Remaining Charging Time
+Power,0.034340206548173255,Remaining Charging Time
+Current,0.030045614649733075,Remaining Charging Time
+Temperature,0.02573053902961888,Remaining Charging Time
+Voltage,0.022850878907846105,Remaining Charging Time
