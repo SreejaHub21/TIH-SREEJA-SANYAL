@@ -1,0 +1,17 @@
+{
+    "day": 16,
+    "features_used": [
+        "Voltage",
+        "Current",
+        "Temperature",
+        "Elapsed Time",
+        "Cycle",
+        "WhAccu",
+        "Power"
+    ],
+    "number_of_features": 7,
+    "soc_target": "SOC",
+    "remaining_time_target": "Remaining Charging Time",
+    "split_source": "Day 13 frozen train/validation/test split",
+    "random_state": 42
+}

@@ -1,0 +1,23 @@
+DAY 16 INITIAL FINDINGS
+
+Models trained:
+1. Random Forest Regressor
+2. XGBoost Regressor
+
+Targets:
+1. SOC
+2. Remaining Charging Time
+
+The same Day 13 frozen train/validation/test split was used.
+No new data split was created.
+
+Model performance was evaluated using:
+- MAE
+- RMSE
+- R2
+
+Random Forest and XGBoost were compared with the Day 15
+Linear Regression baseline.
+
+Final modelling direction should be selected based on
+validation/test performance and overfitting behaviour.

@@ -1,0 +1,5 @@
+Target,Model,Train_R2,Validation_R2,R2_Gap,Status
+Remaining Charging Time,Random Forest Tuned,0.9996115099949128,0.9965017158335832,0.0031097941613296154,No Strong Overfitting Indication
+Remaining Charging Time,XGBoost Tuned,0.9990938779540582,0.9519001970288693,0.04719368092518894,No Strong Overfitting Indication
+SOC,Random Forest Tuned,0.999567350925484,0.7921365218102134,0.20743082911527055,Possible Overfitting
+SOC,XGBoost Tuned,0.9989994758163704,0.8475759604369031,0.1514235153794673,Possible Overfitting
