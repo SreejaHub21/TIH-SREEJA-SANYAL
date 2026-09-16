@@ -1,0 +1,14 @@
+
+DAY 17 MODEL JUSTIFICATION AND INITIAL FINDINGS
+
+A small Multi-Layer Perceptron (MLP) was added as an additional
+non-linear model for comparison with the simpler Linear Regression
+baseline and tree-based Random Forest / XGBoost models.
+The MLP uses two small hidden layers (64 and 32 neurons) with ReLU
+activation. Standardization is fitted only on the training data.
+Early stopping and an internal validation fraction are used to
+monitor training behaviour and reduce unnecessary training.
+The MLP is treated as an additional comparison model rather than
+automatically being selected as the final model.
+Final model direction will be based on validation/test MAE, RMSE,
+R2, generalization behaviour and model complexity.
